@@ -6,17 +6,6 @@ import random
 import socket 
 import threading
 
-def banner(): # Banner
-    os.system("cls || clear")
-    print(fr"""
-██████╗░██╗░░░██╗██╗░░░░░██╗░░░░░
-██╔══██╗██║░░░██║██║░░░░░██║░░░░░
-██████╔╝██║░░░██║██║░░░░░██║░░░░░
-██╔══██╗██║░░░██║██║░░░░░██║░░░░░
-██║░░██║╚██████╔╝███████╗███████╗
-╚═╝░░╚═╝░╚═════╝░╚══════╝╚══════╝
-""")
-
 ip = str(input(" IP:"))
 port = int(input(" PORT:"))
 times = int(input(" PACKETS:"))
