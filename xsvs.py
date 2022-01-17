@@ -36,8 +36,8 @@ def.run2():
         s.close()
         print(' Berhasil menyenggol '+ip+)
   
-  for y in range(threads):
-    if.choice == 'y':
+  for x in range(threads):
+    if.choice == 'x':
       th == threading.Threads(target run2)
       th.start():
         else:
